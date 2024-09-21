@@ -1,7 +1,7 @@
 const request = require("request-promise");
 
 const options = {
-    method: GET,
+    method: "GET",
     uri: "https://icanhazdadjoke.com/",
     headers: {
         Accept: "application/json",
